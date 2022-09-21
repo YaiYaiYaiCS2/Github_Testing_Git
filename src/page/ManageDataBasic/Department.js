@@ -13,6 +13,9 @@ function Department() {
   const [dep_ame, setDame] = useState("sds"); 
 
   adadadad
+  const [ites, setItms] = useState([ad]);
+  const [dep_nme, seDname] = useState("sds"); 
+  const [ep_ame, setame] = useState("sds"); 
 
   useEffect(() => {
     UserGet();
