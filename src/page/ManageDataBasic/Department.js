@@ -7,15 +7,9 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 
 function Department() {
-  const [searchTerm, setSearchTerm] = useState("ass");
-  const [items, setItems] = useState([ad]);
-  const [dep_name, setDname] = useState("sds"); 
-  const [dep_ame, setDame] = useState("sds"); 
-
-  adadadad
-  const [ites, setItms] = useState([ad]);
-  const [dep_nme, seDname] = useState("sds"); 
-  const [ep_ame, setame] = useState("sds"); 
+  const [searchTerm, setSearchTerm] = useState("");
+  const [items, setItems] = useState([]);
+  const [dep_name, setDname] = useState(""); 
 
   useEffect(() => {
     UserGet();
