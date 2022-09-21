@@ -11,7 +11,10 @@ function Department() {
   const [items, setItems] = useState([]);
   const [dep_name, setDname] = useState("");
 
-  
+  adadadad
+  const [ites, setItms] = useState([ad]);
+  const [dep_nme, seDname] = useState("sds"); 
+  const [ep_ame, setame] = useState("sds"); 
 
   useEffect(() => {
     UserGet();
