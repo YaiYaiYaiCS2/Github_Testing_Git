@@ -7,11 +7,15 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 
 function Department() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [items, setItems] = useState([]);
-  const [dep_name, setDname] = useState("");
+  const [searchTerm, setSearchTerm] = useState("ass");
+  const [items, setItems] = useState([ad]);
+  const [dep_name, setDname] = useState("sds"); 
+  const [dep_ame, setDame] = useState("sds"); 
 
-  
+  adadadad
+  const [ites, setItms] = useState([ad]);
+  const [dep_nme, seDname] = useState("sds"); 
+  const [ep_ame, setame] = useState("sds"); 
 
   useEffect(() => {
     UserGet();
@@ -342,81 +346,6 @@ function Department() {
         </div>
       </div>
     </div>
-
-    // <div>
-    //   <Menubar />
-    //   <div className="bg-depart">
-    //     <div className="con-depart">
-    //       <div className="header-depart">
-    //         <label className="lbl-search">
-    //           <input
-    //             className="search-inp-depart"
-    //             type="text"
-    //             placeholder="ຄົ້ນຫາ..."
-    //           ></input>
-    //           <FaSearch className="filt-ic-depart" />
-    //         </label>
-    //         <a href="/home">
-    //           <button className="bnt-search-depart">
-
-    //             ຄົ້ນຫາ
-    //           </button>
-    //         </a>
-    //       </div>
-    //     </div>
-    //     <div className="tb-depart">
-    //       <p className="p-man-depart">
-    //         ຈັດການຂໍ້ມູນພະແນກ
-    //         <button className="btn-pherm">
-    //           <label>
-    //             <FaPlusCircle />
-    //           </label>
-    //           ເພີ່ມຂໍ້ມູນພະແນກ
-    //         </button>
-    //       </p>
-    //       <table className="tb-dep">
-    //         <tr>
-    //           <td>ລໍາດັບ</td>
-    //           <td>ຊື່ພະແນກ</td>
-    //           <td>ແກ້ໄຂ</td>
-    //           <td>ລົບ</td>
-    //         </tr>
-    //         <tbody>
-    //           {items.map((row) => (
-    //             <tr
-    //               key={row.name}
-    //             >
-    //               <td>
-    //                 {row.dep_level}
-    //               </td>
-    //               <td>{row.dep_name}</td>
-    //                     <td>
-    //                   <button
-    //                     onClick={() => UpdateDepartment(row.dep_name)}
-    //                     className="btnnn"
-    //                   >
-    //                     <label>
-    //                       <FaPencilAlt className="up-depart" />
-    //                     </label>
-    //                   </button>
-    //                   </td>
-    //                   <td>
-    //                   <button
-    //                     onClick={() => DelDepartment(row.dep_name)}
-    //                     className="btnnn"
-    //                   >
-    //                     <label>
-    //                       <RiDeleteBin6Line className="del-depart" />
-    //                     </label>
-    //                   </button>
-    //                   </td>
-    //             </tr>
-    //           ))}
-    //         </tbody>
-    //       </table>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 
